@@ -1,4 +1,4 @@
-import 'package:design/design/design+.dart';
+import 'package:design/design/design.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
 
-
+debugShowCheckedModeBanner: false,
       home: DesignDemo(),
     );
   }
